@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC__005_Request_loan">
+        <methods>
+          <include name="set_Up"/>
+          <include name="Request_loan_amount"/>
+        </methods>
+      </class> <!-- TestCases.TC__005_Request_loan -->
+      <class name="TestCases.TC__004_BillPay">
+        <methods>
+          <include name="Bill_Pay"/>
+          <include name="set_Up"/>
+        </methods>
+      </class> <!-- TestCases.TC__004_BillPay -->
+      <class name="TestCases.TC__006_Adminisation">
+        <methods>
+          <include name="set_Up"/>
+          <include name="Adminisation"/>
+        </methods>
+      </class> <!-- TestCases.TC__006_Adminisation -->
+      <class name="TestCases.TC__007_Customer_care">
+        <methods>
+          <include name="Customer_care"/>
+          <include name="set_Up"/>
+        </methods>
+      </class> <!-- TestCases.TC__007_Customer_care -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
